@@ -2,6 +2,7 @@
 Create Anki deck from PGN files.
 
 # Usage
+Download the PGN file of the game and type in the command line
 
 ```
 python anki-pgn.py game_file.pgn
