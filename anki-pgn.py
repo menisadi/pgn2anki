@@ -3,12 +3,32 @@ import sys
 import chess.pgn
 import genanki
 import random
+from bs4 import BeautifulSoup
+import requests
+import io
 
 
-def main(pgn_file):
+def fetch_pgn(url):
     
-    # Read the PGN from file
-    pgn = chess.pgn.read_game(pgn_file)
+    print(url)
+    # The website server expected a header to be passed:
+    # So we give him this
+    # Taken from https://stackoverflow.com/questions/60837734/you-dont-have-permission-to-access-this-resource-python-webscraping
+    headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) '\
+            'AppleWebKit/537.36 (KHTML, like Gecko) '\
+            'Chrome/75.0.3770.80 Safari/537.36'}
+
+    req = requests.get(url, headers=headers)
+    soup = BeautifulSoup(req.text, "html.parser")
+
+    # For some reason the id of the div containing the PGN is named olga-data
+    olga = soup.find(id = "olga-data")
+    print(olga.attrs['pgn'])
+    return olga.attrs['pgn']
+
+def main(source_pgn):
+
+    pgn = chess.pgn.read_game(source_pgn)
     board = pgn.board()
     name = pgn.headers["White"] + " vs " + pgn.headers["Black"]
     print(name)
@@ -74,6 +94,17 @@ def main(pgn_file):
     print(file_name)
     genanki.Package(deck).write_to_file(file_name+'.apkg')
         
+
 if __name__ == "__main__":
-    source_file = open(sys.argv[1])
-    main(source_file)
+    game_source = sys.argv[1]
+
+    if game_source[-4:] == ".pgn":
+        source_pgn = open(game_source)        
+    elif game_source.find("chessgames.com") >= 0:
+        pgn_string = fetch_pgn(game_source)
+        source_pgn = io.StringIO(pgn_string)
+    else: 
+        print("Source doesn't seem to be neither PGN file nor chessgames game link")
+        sys.exit()
+
+    main(source_pgn)
