@@ -14,3 +14,13 @@ Import the file to anki (mobile or web) to learn the game. Make sure that the [F
 The Cards in the deck consist of two sides:
 1. Front: A position (including which turn is it)
 2. Back: The following move 
+
+# Future plans
+- Option to pick side so only its turns will apear.
+- Option to fetch games from the web.
+- Suport sidelines.
+
+# Libaries used in this script
+- [python-chess: a chess library for Python
+](https://github.com/niklasf/python-chess)
+- [genanki: A Library for Generating Anki Decks](https://github.com/kerrickstaley/genanki)
