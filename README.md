@@ -2,9 +2,10 @@
 Create Anki deck from PGN files.
 
 # Usage
-'''
+
+```
 python anki-pgn.py game_file.pgn
-'''
+```
 
 This will produce an Anki deck file in the same folder.
 
