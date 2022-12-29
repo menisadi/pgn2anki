@@ -2,7 +2,7 @@
 Create Anki deck from PGN files.
 
 # Usage
-'''bash
+'''
 python anki-pgn.py game_file.pgn
 '''
 
