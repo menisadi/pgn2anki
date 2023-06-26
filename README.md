@@ -22,9 +22,10 @@ The Cards in the deck consist of two sides:
 2. Back: The following move 
 
 # Future plans
-- Option to pick color, so the cards will only ask for this color's turns.
-- Support sidelines.
-- Support Lichess and Chess.com links
+- [x] Option to pick color, so the cards will only ask for this color's turns.
+- [ ] Support sidelines.
+- [ ] Support Lichess and Chess.com links
+- [ ] Add GUI!
 
 # Libaries used in this script
 - [python-chess: a chess library for Python](https://github.com/niklasf/python-chess)
