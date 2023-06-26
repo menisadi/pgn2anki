@@ -23,7 +23,7 @@ The Cards in the deck consist of two sides:
 
 # Future plans
 - [x] Option to pick color, so the cards will only ask for this color's turns.
-- [ ] Support sidelines.
+- [x] Support sidelines.
 - [ ] Support Lichess and Chess.com links
 - [ ] Add GUI!
 
