@@ -9,6 +9,15 @@
     <a href="https://github.com/menisadi/pgn2anki/pulse">
       <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/menisadi/pgn2anki">
     </a>
+    <a href="https://github.com/menisadi/pgn2anki/releases">
+        <img alt="GitHub Release" src="https://img.shields.io/github/v/release/menisadi/pgn2anki">
+    </a>
+    <a href="https://www.gnu.org/licenses/gpl-3.0">
+        <img alt="License: GPL v3" src="https://img.shields.io/badge/License-GPLv3-blue.svg">
+    </a>
+    <a  href="http://hits.dwyl.com/menisadi/ChessBot">
+        <img alt="HitCount" src="http://hits.dwyl.com/menisadi/pgn2anki.svg">
+    </a>
 </p>
 
 Create Anki deck from PGN files or from [ChessGames.com](https://www.chessgames.com/) game's page.
