@@ -9,17 +9,14 @@
     <a href="https://github.com/menisadi/pgn2anki/pulse">
       <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/menisadi/pgn2anki">
     </a>
-    <a href="https://github.com/menisadi/pgn2anki/releases">
-        <img alt="GitHub Release" src="https://img.shields.io/github/v/release/menisadi/pgn2anki">
-    </a>
     <a href="https://www.gnu.org/licenses/gpl-3.0">
         <img alt="License: GPL v3" src="https://img.shields.io/badge/License-GPLv3-blue.svg">
     </a>
-    <a href="http://hits.dwyl.com/menisadi/pgn2anki">
-        <img alt="HitCount" src="https://hits.dwyl.com/menisadi/pgn2anki.svg?style=flat-square&show=unique">
-    </a>
     <a href="https://hits.seeyoufarm.com">
         <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fmenisadi%2Fpgn2anki&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false"/>
+    </a>
+    <a href="https://github.com/menisadi/pgn2anki/releases">
+        <img alt="GitHub Release" src="https://img.shields.io/github/v/release/menisadi/pgn2anki">
     </a>
 </p>
 
