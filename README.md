@@ -1,4 +1,16 @@
-# pgn2anki
+<h1 align="center">Pgn -> Anki</h1>
+<div align="center" id="logo">
+    <img src="./assets/pawn.jpg" width="200", height="200">
+</div>
+
+<p align="center">In the making</p>
+
+<p align="center">
+    <a href="https://github.com/menisadi/pgn2anki/pulse">
+      <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/menisadi/pgn2anki">
+    </a>
+</p>
+
 Create Anki deck from PGN files or from [ChessGames.com](https://www.chessgames.com/) game's page.
 
 # Usage
