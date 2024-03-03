@@ -47,6 +47,8 @@ The Cards in the deck consist of two sides:
 - [x] Support sidelines.
 - [ ] Support Lichess and Chess.com links
 - [ ] Add GUI!
+- [ ] Documentation
+- [ ] Make available through pip
 
 # Libaries used in this script
 - [python-chess: a chess library for Python](https://github.com/niklasf/python-chess)
