@@ -1,0 +1,36 @@
+# pyproject.toml
+
+[build-system]
+requires      = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pgn2anki"
+version = "1.0.0"
+description = "Convert chess PGN into Anki deck"
+readme = "README.md"
+authors = [{ name = "Meni Sadigurschi", email = "menisadi@gmail.com" }]
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+keywords = ["chess", "anki", "pgn"]
+dependencies = [
+    "chess",
+    "genanki",
+    "beautifulsoup4",
+    "numpy",
+    "tomli",
+]
+requires-python = ">=3.8"
+
+[project.optional-dependencies]
+dev = ["black", "isort", "pip-tools", "pytest"]
+
+[project.urls]
+Homepage = "https://github.com/menisadi/pgn2anki"
+
+[project.scripts]
+pgn2anki = "anki-pgn.__main__:main"
