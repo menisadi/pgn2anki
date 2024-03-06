@@ -36,8 +36,8 @@ Homepage = "https://github.com/menisadi/pgn2anki"
 pgn2anki = "pgn2anki.__main__:main"
 
 [tool.bumpver]
-current_version = "2024.1001-alpha"
-version_pattern = "YYYY.BUILD[-TAG]"
+current_version = "1.0.0"
+version_pattern = "MAJOR.MINOR.PATCH"
 commit_message = "bump version {old_version} -> {new_version}"
 tag_message = "{new_version}"
 tag_scope = "default"
@@ -51,8 +51,4 @@ push = true
 "pyproject.toml" = [
     'current_version = "{version}"',
 ]
-"README.md" = [
-    "{version}",
-    "{pep440_version}",
-]
-
+"src/pgn2anki/__init__.py" = ["{version}"]
