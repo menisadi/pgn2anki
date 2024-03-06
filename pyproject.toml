@@ -24,13 +24,35 @@ dependencies = [
     "numpy",
     "tomli",
 ]
-requires-python = ">=3.8"
+requires-python = ">=3.7"
 
 [project.optional-dependencies]
-dev = ["black", "isort", "pip-tools", "pytest"]
+dev = ["pip-tools", "pytest"]
 
 [project.urls]
 Homepage = "https://github.com/menisadi/pgn2anki"
 
 [project.scripts]
-pgn2anki = "anki-pgn.__main__:main"
+pgn2anki = "pgn2anki.__main__:main"
+
+[tool.bumpver]
+current_version = "2024.1001-alpha"
+version_pattern = "YYYY.BUILD[-TAG]"
+commit_message = "bump version {old_version} -> {new_version}"
+tag_message = "{new_version}"
+tag_scope = "default"
+pre_commit_hook = ""
+post_commit_hook = ""
+commit = true
+tag = true
+push = true
+
+[tool.bumpver.file_patterns]
+"pyproject.toml" = [
+    'current_version = "{version}"',
+]
+"README.md" = [
+    "{version}",
+    "{pep440_version}",
+]
+
