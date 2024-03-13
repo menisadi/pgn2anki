@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "pgn2anki"
-version = "1.0.1"
+version = "1.0.2"
 description = "Convert chess PGN into Anki deck"
 readme = "README.md"
 authors = [{ name = "Meni Sadigurschi", email = "menisadi@gmail.com" }]
