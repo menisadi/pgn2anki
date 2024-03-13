@@ -1,0 +1,9 @@
+chess
+genanki
+beautifulsoup4
+numpy
+tomli
+
+[dev]
+pip-tools
+pytest

@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+src/beta/pgn_travel.py
+src/beta/app/anki2pgn.py
+src/beta/app/app.py
+src/beta/gui/main.py
+src/beta/gui/simple.py
+src/beta/gui/tk.py
+src/pgn2anki/__init__.py
+src/pgn2anki/__main__.py
+src/pgn2anki.egg-info/PKG-INFO
+src/pgn2anki.egg-info/SOURCES.txt
+src/pgn2anki.egg-info/dependency_links.txt
+src/pgn2anki.egg-info/entry_points.txt
+src/pgn2anki.egg-info/requires.txt
+src/pgn2anki.egg-info/top_level.txt
