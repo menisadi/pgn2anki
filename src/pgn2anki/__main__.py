@@ -141,7 +141,18 @@ def convert(source_pgn, color_pick):
         genanki.Package(deck).write_to_file(file_name + ".apkg")
 
 
-def main(args):
+def main():
+    # Parse the arguments
+    args = parseArguments()
+    process(args)
+
+
+def process(args):
+    """Main function for processing the arguments and generate the result
+
+    Args:
+        args str: link to a game or a path to pgn file and optionally a color specification
+    """
     # Raw print arguments
     print("You are running the script with arguments: ")
     for a in args.__dict__:
@@ -167,6 +178,4 @@ def main(args):
 
 
 if __name__ == "__main__":
-    # Parse the arguments
-    args = parseArguments()
-    main(args)
+    main()

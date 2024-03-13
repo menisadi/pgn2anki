@@ -1,2 +1,2 @@
 [console_scripts]
-pgn2anki = pgn2anki:main
+pgn2anki = pgn2anki.__main__:main
