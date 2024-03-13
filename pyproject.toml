@@ -33,7 +33,7 @@ dev = ["pip-tools", "pytest"]
 Homepage = "https://github.com/menisadi/pgn2anki"
 
 [project.scripts]
-pgn2anki = "pgn2anki.__main__"
+pgn2anki = "pgn2anki.__main__:main"
 
 [tool.bumpver]
 current_version = "1.0.0"
