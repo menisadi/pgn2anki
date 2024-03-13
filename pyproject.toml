@@ -36,7 +36,7 @@ Homepage = "https://github.com/menisadi/pgn2anki"
 pgn2anki = "pgn2anki.__main__:main"
 
 [tool.bumpver]
-current_version = "1.0.0"
+current_version = "1.0.1"
 version_pattern = "MAJOR.MINOR.PATCH"
 commit_message = "bump version {old_version} -> {new_version}"
 tag_message = "{new_version}"
