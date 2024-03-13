@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: pgn2anki
-Version: 1.0.1
+Version: 1.0.2
 Summary: Convert chess PGN into Anki deck
 Author-email: Meni Sadigurschi <menisadi@gmail.com>
 License:                     GNU GENERAL PUBLIC LICENSE
