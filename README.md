@@ -1,9 +1,12 @@
+
+
 <h1 align="center">Pgn -> Anki</h1>
 <div align="center" id="logo">
     <img src="./assets/pawn.jpg" width="200", height="200">
 </div>
 
-<p align="center">In the making</p>
+<h3 align="center">Project Archived</h1>
+This project has been archived due to Anki dropping support for FEN notation viewing, which was a core feature of this project. Without this support, the intended functionality and utility of the project are no longer feasible.
 
 <p align="center">
     <a href="https://github.com/menisadi/pgn2anki/pulse">
@@ -26,12 +29,12 @@ Create Anki deck from PGN files or from [ChessGames.com](https://www.chessgames.
 To create a deck from a local PGN file type in the command line
 
 ```
-python anki-pgn.py game_file.pgn
+python -m src.pgn2anki game_file.pgn
 ```
 
 Or, to create a deck from a game's page on [chessgames.com](chessgames.com) type in 
 ```
-python anki-pgn.py https://www.chessgames.com/perl/chessgame?gid=1234567
+python -m src.pgn2anki https://www.chessgames.com/perl/chessgame?gid=1234567
 ```
 
 This will produce an Anki deck file in your local folder. 
