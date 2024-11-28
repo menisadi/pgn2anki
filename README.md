@@ -1,12 +1,11 @@
+# ⚠️ Project Archived
 
+This project has been archived due to Anki dropping support for FEN notation viewing, which was a core feature of this project. Without this support, the intended functionality and utility of the project are no longer feasible.\n\n
 
 <h1 align="center">Pgn -> Anki</h1>
 <div align="center" id="logo">
     <img src="./assets/pawn.jpg" width="200", height="200">
 </div>
-
-<h3 align="center">Project Archived</h1>
-This project has been archived due to Anki dropping support for FEN notation viewing, which was a core feature of this project. Without this support, the intended functionality and utility of the project are no longer feasible.
 
 <p align="center">
     <a href="https://github.com/menisadi/pgn2anki/pulse">
