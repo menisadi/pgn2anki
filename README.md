@@ -1,6 +1,9 @@
 # ⚠️ Project Archived
 
-This project has been archived due to Anki dropping support for FEN notation viewing, which was a core feature of this project. Without this support, the intended functionality and utility of the project are no longer feasible.\n\n
+This project has been archived due to Anki dropping support for FEN notation viewing, which was a core feature of this project. Without this support, the intended functionality and utility of the project are no longer feasible.
+
+<br>
+<br>
 
 <h1 align="center">Pgn -> Anki</h1>
 <div align="center" id="logo">
